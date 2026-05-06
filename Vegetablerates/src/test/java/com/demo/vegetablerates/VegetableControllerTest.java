@@ -25,7 +25,6 @@ import com.demo.vegetablerates.service.VegetableService;
 
 
 @WebMvcTest(VegetableController.class)
-@ContextConfiguration(classes = VegetableratesApplication.class)
 class VegetableControllerTest {
 
     @Autowired
